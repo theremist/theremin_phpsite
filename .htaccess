@@ -1,0 +1,11 @@
+Options -Indexes
+
+<Files ~ "\.(log|inc|sql|ini)$">
+    Order allow,deny
+    Deny from all
+</Files>
+<Files ~ "^\.ht">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</Files>
